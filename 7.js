@@ -1,4 +1,9 @@
-function isOldEnoughToDrinkAndDrive(age){
-  if (age >= 21);
+function isLessThan30(num) {
+  if (num < 30 && typeof num !== 'string'){
+    return true;
+    }else{
+      return false;
+    } 
 };
-isOldEnoughToDrinkAndDrive(17);
+var output = isLessThan30(9);
+console.log(output); // --> true

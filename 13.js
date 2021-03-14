@@ -1,5 +1,9 @@
-function getFullName(firstName,lastName){
-    return firstName+" "+lastName;
-};
-var output = getFullName('Aya','M')
-console.log(output)
+function isOldEnoughToDrink(age){
+    if (age>=21){
+      return true;
+    }else if (age<21){
+    return false;
+    }
+  };
+  isOldEnoughToDrink(22);
+  

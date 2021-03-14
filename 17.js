@@ -1,9 +1,3 @@
-function isLessThan30(num) {
-    if (num<=30 && typeof num !== 'string'){
-        return true;
-    }else{
-        return false;
-    }
+for (let i=1000; i<=3450; i++){
+    console.log(i);
   };
-  var output = isLessThan30(20);
-  console.log(output); // --> true

@@ -1,6 +1,9 @@
-var i = 100;
-while(i<345){
-
-i++;
-console.log(i);
-};
+function equalsTen(num) {
+    if (num === 10){
+      return true;
+      }else{
+      return false;
+      }
+  };
+  var output = equalsTen(9);
+  console.log(output); // --> false

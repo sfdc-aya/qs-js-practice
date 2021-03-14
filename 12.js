@@ -1,5 +1,4 @@
-function whatDoYouKnow(value){//parameter && input
-console.log(value);
- return `I know ${value}`;//output 
-}
-whatDoYouKnow('Java Script')//arg
+var myNum = 20;
+var myName = "seytech";
+[myNum, myName] = [myName, myNum];
+console.log(myNum, myName);

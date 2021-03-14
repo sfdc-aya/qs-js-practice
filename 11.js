@@ -1,9 +1,11 @@
-function checkAge(name, age){
-    if (age<21){
-        console.log('Go home, '+name);
-        console.log('Go home, ${name}');
+function isEqualTo(num1, num2) {
+    if (num2===num1){
+      return true;
     }else{
-        console.log("You're welcome " +name);
+      return false;
     }
-};
-checkAge('Aya',21);
+  };
+  var output = isEqualTo(11, 10);
+  console.log(output); // --> false
+  var output = isEqualTo(50, 50);
+  console.log(output); // --> false

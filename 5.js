@@ -1,8 +1,9 @@
-function isOldEnoughToDrive(age){
-  if (age=>18 ){
-    console.log('isOlEnoughToDrive');
-  }else if (age < 18){
-    console.log('is not old enough to drive');
-  }
-};
-isOldEnoughToDrive(23);
+function isGreaterThanTen(num) {
+  if (num>10 && typeof num !== 'string'){
+        return true;
+    }else{
+      return false;
+    }
+  };
+  var output = isGreaterThanTen(11);
+    console.log(output); // --> true

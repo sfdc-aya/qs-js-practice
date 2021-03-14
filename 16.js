@@ -1,6 +1,9 @@
-function getLengthOfTwoWords(word1, word2) {
-    return word1.length+word2.length;
+function isOldEnoughToDrinkAndDrive(age){
+  if (age < 15){
+    return true;
+  }else{
+    return false;
   }
-  
-var output = getLengthOfTwoWords('ayazhan', 'mukhamedova');
-console.log(output); // - 18
+};
+var output = isOldEnoughToDrinkAndDrive(22);
+console.log(output); // --> false

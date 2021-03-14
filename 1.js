@@ -1,4 +1,2 @@
-var a = 20;
-var b = 30;
-[a, b] = [b, a];
-console.log(a);
+var output = modulo(25, 4);
+console.log(output); // --> 1

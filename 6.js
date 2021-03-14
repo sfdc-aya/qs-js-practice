@@ -1,8 +1,6 @@
-function isOldEnoughToVote(age){
-  if (age=>18 ){
-    console.log('isOlEnoughToDrive');
-  }else if (age < 18){
-    console.log('is not old enough to drive');
-  }
+function getLengthOfTwoWords(word1, word2) {
+  return word1.length + word2.length;
 };
-isOldEnoughToVote(23);
+
+var output = getLengthOfTwoWords('some', 'words');
+console.log(output); // --> 9
